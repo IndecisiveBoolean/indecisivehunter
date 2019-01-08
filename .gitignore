@@ -2,4 +2,5 @@ ih-workspace.code-workspace
 indecisivehunter-mckup.bmpr
 anime-master
 slick-1.8.1
-node_modules
+node_modules/animejs
+package-lock.json
