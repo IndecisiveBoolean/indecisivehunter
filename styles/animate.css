@@ -1,0 +1,108 @@
+@keyframes buttonResetAlert {
+    from {
+        transform: translatey(0px);
+        opacity: 0;
+    }
+    to {
+        transform: translatey(-34px);
+        opacity: 1;
+    }
+}
+
+.grimalkyne-activate {
+    animation: buttonResetAlert .4s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes buttonResetAlertHide {
+    from {
+        transform: translatey(-34px);
+        opacity: 1;
+    }
+    to {
+        transform: translatey(0px);
+        opacity: 0;
+    }
+}
+
+.grimalkyne-deactivate {
+    animation: buttonResetAlertHide .4s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes scaleChange {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.monster-icon:hover {
+    animation: scaleChange .1s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes showBubble {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.showBubble {
+    animation: showBubble 1.5s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes hideBubble {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+
+.hideBubble {
+    animation: hideBubble .7s ease;
+    animation-fill-mode: both;
+}
+
+
+@keyframes openFAQ {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(390px);
+    }
+}
+
+.open {
+    animation: openFAQ .5s ease;
+    animation-fill-mode: both;
+}
+
+@keyframes closeFAQ {
+    from {
+        transform: translateX(390px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.closed {
+    animation: closeFAQ .5s ease;
+    animation-fill-mode: both;
+}
+
+.paused {
+    animation-play-state: paused;
+}

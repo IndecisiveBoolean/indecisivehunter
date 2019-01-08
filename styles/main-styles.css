@@ -1,0 +1,215 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Nanum Brush Script', cursive;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../images//backgrounds/parchment-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    margin: 0;
+}
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+/* ======= Universal styles ======= */
+
+.main-content-flex {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.btn-logo-flex {
+    position: absolute;
+    top: 100px;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.main-logo-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.mhw-logo {
+    height: 300px;
+    margin: 0 auto;
+}
+
+.grimalkyne-alert-div {
+    /* display: flex; */
+    position: absolute;
+    top: 350px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    margin: 0 auto;
+    width: 450px;
+    height: 80px;
+}
+
+.grimalkyne-alert-icon {
+    width: 50px;
+}
+
+.alert-text {
+    color: black;
+    font-size: 1.6rem;
+    text-align: center;
+
+    width: 400px;
+    height: auto;
+    margin: 28px 0;
+    float: right;
+    
+}
+
+.start-select-btn {
+    background-color:rgb(242, 230, 217);
+    width: 20%;
+    min-width: 400px;
+    margin: 100px auto 0 auto;
+    font-size: 38px;
+    font-weight: 600;
+
+    border: 2px rgb(115, 77, 38) solid;
+    border-radius: 20px;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+.corner-image-link {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    z-index: 30;
+    height: 150px;
+    width: 150px;
+}
+
+.corner-image-link > .monster-icon {
+    height: 150px;
+    width: 150px;
+}
+
+.github-icon {
+    position: absolute;
+    right: 41px;
+    bottom: 170px;
+    width: 110px;
+}
+
+/* ======= /Universal Styles ======= */
+
+/* ======= FAQ Styles ======= */
+
+.help-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: -403px;
+    z-index: 20;
+
+    background-image: url(../images/backgrounds/faq-parchment.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #eaebed;
+    border-right: 3px rgb(115, 77, 38) solid;
+
+    width: 400px;
+    height: 100vh;
+}
+
+.faq-open-icon {
+    position: absolute;
+    top: 50px;
+    right: -60px;
+
+    background-color: rgb(242, 230, 217);
+    border: 2px rgb(115, 77, 38) solid;
+    border-radius: 25px;
+
+    height: 100px;
+}
+
+.gajalaka-bubble {
+    position: absolute;
+    right: -124px;
+    top: 27px;
+    height: 40px;
+
+    display: none;
+}
+
+.faq-content-flex {
+    color: black;
+    width: 74%;
+}
+
+.faq-header {
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3.2rem;
+    margin-top: 20px
+}
+
+.faq-summary {
+    text-align: center;
+    margin: -20px 0 60px 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.faq-entries {
+    text-align: left;
+    margin: 0 5px 0 5px;
+    height: 540px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    overflow-y: scroll;
+    
+    scrollbar-color: rgb(242, 230, 217) rgb(115, 77, 38);
+    scrollbar-width: thin;
+}
+
+/* ======= /FAQ Styles ======= */
+
+/* ======= FAQ Scrollbar Styles ======= */
+
+.faq-entries::-webkit-scrollbar {
+    width: 5px;
+}
+
+.faq-entries::-webkit-scrollbar-track {
+    width: 3px;
+    -webkit-box-shadow: inset 0 0 3px rgb(242, 230, 217);
+    background-color: rgb(115, 77, 38);
+}
+
+.faq-entries::-webkit-scrollbar-thumb {
+    background-color: rgb(242, 230, 217);
+    /* outline: 1px solid slategrey; */
+}
+ 
+/* ======= /FAQ Scrollbar Styles ======= */
