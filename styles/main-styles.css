@@ -57,9 +57,8 @@ body {
 }
 
 .grimalkyne-alert-div {
-    /* display: flex; */
     position: absolute;
-    top: 350px;
+    top: 360px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -88,7 +87,7 @@ body {
 .start-select-btn {
     background-color:rgb(242, 230, 217);
     width: 20%;
-    min-width: 400px;
+    min-width: 500px;
     margin: 100px auto 0 auto;
     font-size: 38px;
     font-weight: 600;
