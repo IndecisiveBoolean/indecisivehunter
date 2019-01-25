@@ -2,6 +2,6 @@
 indecisivehunter-mckup.bmpr
 anime-master
 slick-1.8.1
-node_modules/animejs
+node_modules
 package-lock.json
-scripts/carousel-gen.js
+./scripts/carousel-gen.js
