@@ -4,3 +4,4 @@ anime-master
 slick-1.8.1
 node_modules/animejs
 package-lock.json
+scripts/carousel-gen.js

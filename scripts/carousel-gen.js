@@ -1,5 +1,3 @@
-
-
 // let monsterIcons = [
 //     {name: "anjanath", link: "../images/MHW-Anjanath_Icon.png"},
 //     {name: "azurer rathalos", link: "../images/MHW-Azure_Rathalos_Icon.png"},
